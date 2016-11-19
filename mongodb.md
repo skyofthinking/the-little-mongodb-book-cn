@@ -32,7 +32,7 @@ Perry Neal，谢谢你给我无法衡量的帮助，谢谢你锐利的眼光、�
 <http://github.com/karlseguin/the-little-mongodb-book>.
 
 ### 关于本书的中文版本 ###
-本书的中文版由[justinyhuang](http://justinyhuang.com)完成，基于与原著相同的许可证。最新版本在[GitHub](https://github.com/justinyhuang/the-little-mongodb-book-cn)。译文的纰漏欢迎告知<justin.y.huang@live.com>或直接提交github。
+本书的中文版由[justinyhuang](http://justinyhuang.com)完成，基于与原著相同的许可证。最新版本在[GitHub](https://github.com/justinyhuang/the-little-mongodb-book-cn)。译文的纰漏欢迎告知<yang.huang@ymail.com>或直接提交github。
 
 \clearpage
 
@@ -183,7 +183,7 @@ MongoDB为`_id`域生成的`ObjectId`也是可以被选择的，就像这样：
 \clearpage
 
 ## 第二章 - 更新 ##
-在第一章中我们介绍了CRUD（Copy、Read、Update、Delete）中的三个操作。本章专门用来介绍前面跳过的第四个操作：`update`。`update`有一些出人意料的行为，这就是为什么我们专门在这章当中讨论它。
+在第一章中我们介绍了CRUD（Create、Read、Update、Delete）中的三个操作。本章专门用来介绍前面跳过的第四个操作：`update`。`update`有一些出人意料的行为，这就是为什么我们专门在这章当中讨论它。
 
 ### update: replace 与 $set ###
 `update`最简单的执行方式有两个参数：一个是选择器(选择更新的范围)，一个是需要更新的域。如果Roooooodles长胖了，我们就需要：
@@ -414,7 +414,7 @@ MongoDB擅长的一个特别角色是日志的记录。MongoDB有两点使得它
 关于持久性的话题只会在这里提及，因为为了克服MongoDB缺乏单服务器持久性的弊病人们已经做了大量的工作。这段话还可能会出现在以后的Google搜索结果中。您看到的那些说MongoDB这个缺点的信息都是过时了的。
 
 ### 全文搜索 ###
-真正的全文搜索功能希望能够在将来的MongoDB版本中实现。有了它对数组的支持，基本的权威你搜索应该是很容易实现的。至于更高级一点的功能，就需要依仗像Lucene/Solr之类的方案了。当然，这一点上其他很多关系数据库也是一样的。
+真正的全文搜索功能希望能够在将来的MongoDB版本中实现。有了它对数组的支持，基本的全文搜索应该是很容易实现的。至于更高级一点的功能，就需要依仗像Lucene/Solr之类的方案了。当然，这一点上其他很多关系数据库也是一样的。
 
 ### 事务（transaction） ###
 MongoDB是不支持事务的。不过它有两个替代的方案，其中一个很不错但是不怎么有人用，另外一个很麻烦同时又很灵活。
@@ -707,4 +707,4 @@ MongoDB的复制于关系数据库的复制类似。写入的数据发送到主�
 ## 总结 ##
 至此您对MongoDB的了解已经足以开始在实际项目中使用它了。关于MongoDB的远不止我们所介绍的这些，不过您需要做的下一件事应该是把在这里所学到的只是汇总起来，并熟悉您即将用到的驱动。MongoDb的[网站](http://www.mongodb.com/)有很多有用的信息。其[官方讨论组](http://groups.google.com/group/mongodb-user)则是一个问问题的好地方。
 
-NoSQL的诞生不仅仅因为有必要，同时也是为了实践新的方法。应该承认的是这个领域一直在向前发展，尽管有时候会失败，但是如果我们不去尝试，就拥有无法成功。我想，这应该是我们推动职业生涯的正确方法。
+NoSQL的诞生不仅仅因为有必要，同时也是为了实践新的方法。应该承认的是这个领域一直在向前发展，尽管有时候会失败，但是如果我们不去尝试，就无法拥抱成功。我想，这应该是我们推进职业生涯的正确方法。
